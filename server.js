@@ -1,7 +1,7 @@
 const express = require('express')
 const hbs = require('hbs')
 const fs = require('fs')
-const port = process.env.PROT || 3000
+const port = process.env.PROT
 var app = express()
 
 hbs.registerPartials(__dirname + '/views/partials')
